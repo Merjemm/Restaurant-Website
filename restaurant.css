@@ -1,0 +1,106 @@
+*
+{
+
+	margin: 0;
+	padding: 0;
+}
+
+.first
+{	 
+
+    background-image: linear-gradient(to bottom,black 3%,
+    	              white 70%),url("restaurant.jpg");
+    background-blend-mode:darken;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+   
+}
+ .title{
+	position: relative;
+	top:210px;
+	left: 570px;
+	width: 400px;
+	margin-right: 0px;
+	margin-left: 0px;
+
+}
+ .title h1{
+	color:white;
+	font-family: Brush Script MT, cursive;
+	font-size: 70px;
+	text-align: center;
+	
+}
+ .button{
+	top: 30px;
+	margin-left: 100px;
+
+}
+ .button .btn1{
+	border:2px solid green;
+	background-color: green;
+	padding:10px 30px;
+	color:white;
+	text-decoration: none;
+	font-size: 13px bold;
+	text-transform: uppercase;
+}
+ .main-navigation{
+	position:relative;
+	width: 900px;
+	float: right;
+	right:20px;
+	left:50px;
+}
+
+ .main-navigation li{
+	width: 120px;
+	float: left;
+	margin: 10px auto;
+	text-align: center;
+	list-style: none;
+}
+
+ .main-navigation li a{
+	text-decoration: none; color: lightgreen;
+	text-shadow: 1px 1px #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ .main-navigation li:hover{
+	border:1px solid white;
+}
+.about_us{
+	background-image: url("ortakoy.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+
+}
+ .about_us_title{
+	font-family: font-family: Brush Script MT, cursive;;
+	color:black;	
+	font-size: 70px;
+	text-align: center;
+    float: left;
+    margin-left: 0;
+  
+}
+.opis{
+	float:right;
+	font-family: Stencil Std, fantasy;
+	color:black;	
+	font-size: 20px;
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+
+
+
+}
