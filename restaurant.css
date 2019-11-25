@@ -36,7 +36,7 @@
 }
  .button{
 	top: 30px;
-	margin-left: 100px;
+	margin-left: 90px;
 
 }
  .button .btn1{
@@ -84,7 +84,7 @@
 
 }
  .about_us_title{
-	font-family: font-family: Brush Script MT, cursive;;
+	font-family: Brush Script MT, cursive;;
 	color:black;	
 	font-size: 70px;
 	text-align: center;
@@ -100,7 +100,41 @@
 	text-align: center;
 	margin-right: 0px;
 	margin-left: 0px;
-
-
-
+}
+.menu{
+	background-image: url("kizkulesi.jpg");
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    opacity: 0.75;
+}
+.menu_title{
+	font-family: Brush Script MT, cursive;;
+	color:black;	
+	font-size: 70px;
+	text-align: center;
+    float: left;
+    margin-left: 0;
+}
+.soups {
+    float:left;
+	font-family: Stencil Std, fantasy;
+	color:black;	
+	font-size: 10px;
+	position: absolute;
+	top: 100px;
+	margin-left: 0px;
+	list-style: circle;
+}
+.salads {
+    float:left;
+	font-family: Stencil Std, fantasy;
+	color:black;	
+	font-size: 10px;
+	position: absolute;
+	top: 400px;
+	margin-left: 0px;
+	list-style: circle;
 }
