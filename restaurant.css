@@ -138,3 +138,30 @@
 	margin-left: 0px;
 	list-style: circle;
 }
+div#f {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+/*Colors of text in footer part*/
+
+h3#contactf,
+label.contactl {
+    color: white;
+}
+
+
+/*Positioning text in form.php*/
+
+h1#h1 {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+/*positioning button in form.php*/
+
+button#button {
+    margin-left: 200px;
+}
